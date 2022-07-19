@@ -1,5 +1,5 @@
 {
-  "name": "fe-resource-library",
+  "name": "@civicactions/fe-resource-library",
   "version": "0.0.1",
   "description": "A frontend resource library for CivicActions",
   "main": "index.js",
