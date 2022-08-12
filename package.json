@@ -50,6 +50,7 @@
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
+    "@storybook/addon-a11y": "^6.5.10",
     "prop-types": "^15.8.1"
   }
 }
