@@ -51,8 +51,6 @@
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
-    "@storybook/addons": "^6.5.10",
-    "@storybook/theming": "^6.5.10",
     "prop-types": "^15.8.1"
   }
 }
