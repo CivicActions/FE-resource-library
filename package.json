@@ -54,5 +54,8 @@
   },
   "dependencies": {
     "prop-types": "^15.8.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
