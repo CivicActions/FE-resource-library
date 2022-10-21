@@ -1,6 +1,11 @@
 import { useState } from "react";
 
-export const useStateWithLocalStorage = (key: string, init?: any) => {
+type useStateWithLocalStorageResult = [any, (value: any) => void];
+
+export const useStateWithLocalStorage = (
+  key: string,
+  init?: any
+): useStateWithLocalStorageResult => {
   const storedValue = <any>window.localStorage.getItem(key);
 
   if (storedValue === null && init) {
