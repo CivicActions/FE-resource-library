@@ -1,0 +1,26 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Documentation/Accessibility" />
+
+# Accessibility
+[CivicActions Front End Accessibility Documentation](https://accessibility.civicactions.com/playbook/roles#front-end-engineer--software-engineer)
+
+## Accessibility Testing Tools
+
+CivicActions recommends two testing tools for accessibility: [axeDevTools](https://deque.com/axe/devtools/) (only available on Chrome) and [Accessibility Insights](https://accessibilityinsights.io/).
+
+## Quick Checklist
+
+This list is not comprehensive, but it is a quick rundown of things to think through when creating markup and styling pages:
+
+### Keyboard Use
+
+It is important that users can logically tab through items on each page and that it is obvious when the keyboard focus is on each element.
+[Keyboard Accessibility Details](https://webaim.org/techniques/keyboard/)
+
+### Headings and Semantic Markup
+
+ - Headings must be in order (Only H2s after H1, and only H3 after H2, etc)
+ - Use semantic markup instead of divs where possible.
+
+[Semantic Markup Details](https://webaim.org/techniques/semanticstructure/)
