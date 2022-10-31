@@ -1,0 +1,18 @@
+import { Meta, Story } from "@storybook/addon-docs";
+import { TestComponent } from "./";
+
+<Meta title="Hooks/StateWithLocalStorage" component={TestComponent} />
+
+This hook behaves like the default useState hook in React, except state values are also saved to local storage.
+This allows state to persist when the page is refreshed.
+
+```js
+const [state, setState] = useStateWithLocalStorage(
+  "my-local-storage-key",
+  "initial state"
+);
+```
+
+<Story name="StateWithLocalStorage">
+  <TestComponent key="my-state-key" initialState="initial state" />
+</Story>
