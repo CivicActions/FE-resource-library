@@ -15,18 +15,24 @@ This list is not comprehensive, but it is a quick rundown of things to think thr
 
 ### Make the keyboard usable
 
-It is important that users can logically tab through items on each page and that it is obvious when the keyboard focus is on each element.
+- It is important that users can logically tab through items on each page and that it is obvious when the keyboard focus is on each element
+- Pay special attention to modals and other interactive bits. When the modal opens, does keyboard focus come with it? Can you close the modal with a keyboard?
+- Make sure form labels describe the function of each form control
 [Keyboard Accessibility Details](https://webaim.org/techniques/keyboard/)
 
-### Use Headings as an outline and semantic markup
+### Use Headings as an outline
 
  - Headings must be in order (Only H2s after H1, and only H3 after H2, etc)
+[Headings Detaials](https://webaim.org/techniques/semanticstructure/#headings)
+
+### Wrap with semantic markup
+
  - Use semantic markup instead of divs where possible. (`<header>, <nav>, <main>, <aside>, and <footer>`)
 
 [Semantic Markup Details](https://webaim.org/techniques/semanticstructure/)
 
 ### Use alt text on images
- - All images need alt text.
+ - All images need alt text
  - Alt text should be concise and descriptive
  - If an image is decorative, use an empty alt tag (`alt=" "`)
 
