@@ -1,0 +1,13 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Documentation/Drupal/Twig" />
+
+# Twig
+
+## Search in processed field value
+`{% 'some-value' in content.field_name|render|trim %}`
+
+Or if you don't want the default drupal field markup:
+
+`{% 'some-value' in content.field_name|field_value|render|trim %}`
+
