@@ -1,0 +1,37 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="How To Contribute" />
+
+# How to contribute
+
+## General Documentation
+
+General documentation pages focus on sharing best practices, recipes/examples, etc., and are meant to be read from the [Github Pages instance](https://civicactions.github.io/FE-resource-library/) of the CivicActions Resource Library. They will not be distributed as part of an NPM package.
+
+Providing documentation is easy! This Storybook instance includes the [Docs addon](https://storybook.js.org/addons/@storybook/addon-docs), which allows you to write long-form markdown documentation and stories in one file, or just pure documentation pages using the `.mdx` format. [MDX](https://mdxjs.com/) is a standard file format that combines Markdown with JSX. Although this means you can freely embed JSX component blocks at any point in the file, general documentation pages will usually just consist of content written in Markdown only.
+
+### Guidelines
+
+- Your file should be saved under the `src/documentation` directory.
+- Files should be named with the full `.stories.mdx` suffix and file format.
+- See existing documentation files for an example of how to format the file.
+- Use the value for the `title` prop in the `<Meta>` component to dictate where your page lives in Storybook's left-side navigation.
+- Files will display alphabetically in the left-side menu. Use the file name to control the order in which your files will display.
+```
+📂 src
+ 📂 documentation
+  📂 my-subject
+    📄 01-some-topic.stories.mdx
+    📄 02-another-topic.stories.mdx
+```
+
+## Components, Hooks, and other code examples
+
+_More information coming soon._
+
+## Workflow
+
+- Whether you have an idea for a new general documentation or a component or hook you want to share, create an issue for your idea and follow the issue guidelines _(coming soon)_ for creating a new contribution.
+- Make your changes in a feature branch off the of the latest `main` branch, and follow the GitHub workflow guidelines for naming your branch so that it is synced to the issue you created.
+- Once you're ready, create a pull request for your branch targeting the main branch and it will be reviewed by the team.
+- Once your branch is merged it will be available on the github pages instance after the build tasks complete.
