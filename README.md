@@ -1,6 +1,8 @@
 # FE-resource-library
 ## 🛠️ The CivicActions Front End Resource Library
 
+This project is no longer being worked on.
+
 The primary goal of this repo is to house shared knowledge and resources that support:
 
 1. The setup and expansion of project workflows with best practices in mind
